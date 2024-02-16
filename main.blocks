@@ -1,4 +1,21 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="!G:cSoI2{o`dmT[26uP$">mySprite</variable><variable type="KIND_SpriteKind" id="EPnnKdgWS);#c:4NDsxs">Player</variable><variable type="KIND_SpriteKind" id="U.*26:5~vGTI=?CI-Xt)">Projectile</variable><variable type="KIND_SpriteKind" id="a=3j]YFaRAfLaEpp#I;h">Food</variable><variable type="KIND_SpriteKind" id="y8Hm.H8|#2gZ/2ivOWQ+">Enemy</variable></variables><block type="pxt-on-start" id="E3+?AA3ETQ9R_k#Dvc)U" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="r*kT67V*.Y0kd@Pytlmc"><value name="img"><shadow type="background_image_picker" id="KkYcX#z=*t_Gb;;2S_J="><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="!G:cSoI2{o`dmT[26uP$">mySprite</variable><variable type="KIND_SpriteKind" id="EPnnKdgWS);#c:4NDsxs">Player</variable><variable type="KIND_SpriteKind" id="U.*26:5~vGTI=?CI-Xt)">Projectile</variable><variable type="KIND_SpriteKind" id="a=3j]YFaRAfLaEpp#I;h">Food</variable><variable type="KIND_SpriteKind" id="y8Hm.H8|#2gZ/2ivOWQ+">Enemy</variable></variables><block type="pxt-on-start" id="E3+?AA3ETQ9R_k#Dvc)U" x="170" y="50"><statement name="HANDLER"><block type="variables_set" id="#{_yqi}C,D9?FKp#elr8"><field name="VAR" id="!G:cSoI2{o`dmT[26uP$">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="MO(wR:*JpQILy`!c3LzG"><value name="img"><shadow type="screen_image_picker" id="%YB3amE_|#{x]M2AHxY1"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"%YB3amE_|#{x]M2AHxY1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=",3~G]Sai:2`5xc}::.z@"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundimage" id="r*kT67V*.Y0kd@Pytlmc"><value name="img"><shadow type="background_image_picker" id="KkYcX#z=*t_Gb;;2S_J="><field name="img">img`
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
@@ -119,4 +136,4 @@
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`</field><data>{"commentRefs":[],"fieldData":{"img":"KkYcX#z=*t_Gb;;2S_J="}}</data></shadow></value><next><block type="music_playable_play" id="U,d6(#)TBayP$?E8`ffB"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_song_field_editor" id="g`YwbHcI7[u$HP0Qz_(8"><field name="song">hex`0078000408020100001c00010a006400f401640000040000000000000000000000000005000004120000000400012010001400011e24002800011e`</field><data>{"commentRefs":[],"fieldData":{"song":"g`YwbHcI7[u$HP0Qz_(8"}}</data></shadow></value></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"KkYcX#z=*t_Gb;;2S_J="}}</data></shadow></value><next><block type="music_playable_play" id="U,d6(#)TBayP$?E8`ffB"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_song_field_editor" id="g`YwbHcI7[u$HP0Qz_(8"><field name="song">hex`0078000408020100001c00010a006400f401640000040000000000000000000000000005000004120000000400012010001400011e24002800011e`</field><data>{"commentRefs":[],"fieldData":{"song":"g`YwbHcI7[u$HP0Qz_(8"}}</data></shadow></value></block></next></block></next></block></statement></block></xml>
